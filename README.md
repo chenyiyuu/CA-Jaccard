@@ -1,2 +1,5 @@
 # CA-Jaccard
-[CVPR 2024] CA-Jaccard: Camera-aware Jaccard Distance for Person Re-identification
+Official PyTorch implementation of CA-Jaccard: Camera-aware Jaccard Distance for Person Re-identification (CVPR 2024).
+
+The code will be released soon.
+
