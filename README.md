@@ -9,7 +9,7 @@ Official PyTorch implementation of [CA-Jaccard: Camera-aware Jaccard Distance fo
 
 ## Overview
 
-![overview](figs/Overview.jpg)
+![overview](Overview.jpg)
 >In this paper, we propose a novel camera-aware Jaccard (CA-Jaccard) distance that leverages camera information to enhance the reliability of Jaccard distance. 
 Specifically, we introduce camera-aware k-reciprocal nearest neighbors (CKRNNs) to find k-reciprocal nearest neighbors on the intra-camera and inter-camera ranking lists, which improves the reliability of relevant neighbors and guarantees the contribution of inter-camera samples in the overlap. Moreover, we propose a camera-aware local query expansion (CLQE) to exploit camera variation as a strong constraint to mine reliable samples in relevant neighbors and assign these samples higher weights in overlap to further improve the reliability. Our CA-Jaccard distance is simple yet effective and can serve as a general distance metric for person re-ID methods with high reliability and low computational cost. Extensive experiments demonstrate the effectiveness of our method.
 
@@ -18,7 +18,7 @@ Specifically, we introduce camera-aware k-reciprocal nearest neighbors (CKRNNs) 
 ### Installation
 
 ```shell
-git clone https://github.com/yoonkicho/PPLR
+git clone https://github.com/chen960/CA-Jaccard
 cd CA-Jaccard
 pip install -r requirement.txt
 ```
