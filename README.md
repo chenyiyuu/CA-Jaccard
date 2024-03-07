@@ -63,7 +63,7 @@ CUDA_VISIBLE_DEVICES=1,2,3,4 python train_caj.py -d veri --eps 0.6  --iters 400 
 
 We use a single RTX 3090 GPU for testing.
 
-You can download pre-trained weights from this [link]().
+You can download pretrained weights from this [link]().
 
 
 ```bash
@@ -75,10 +75,10 @@ CUDA_VISIBLE_DEVICES=1 python test.py -d msmt17 --resume ./pretrained_models/CC+
 CUDA_VISIBLE_DEVICES=1 python test.py -d veri --resume ./pretrained_models/CC+CAJ_veri_43.1.tar
 ```
 
-## Re-ranking
+## Re-ranking (re-ranking scene)
 We use a single RTX 3090 GPU for re-ranking.
 
-Note that reordering on the MSMT17 and VeRi-776 datasets requires at least 400GB memory.
+Note that re-ranking on the MSMT17 and VeRi-776 datasets requires at least 400GB memory.
 
 You can download baseline pretrained weights from this [link]().
 
