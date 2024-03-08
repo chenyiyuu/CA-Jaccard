@@ -72,7 +72,7 @@ CUDA_VISIBLE_DEVICES=1 python test.py -d market1501 --resume ./pretrained_models
 # msmt17
 CUDA_VISIBLE_DEVICES=1 python test.py -d msmt17 --resume ./pretrained_models/CC+CAJ_msmt17_42.8.tar
 # veri
-CUDA_VISIBLE_DEVICES=1 python test.py -d veri --resume ./pretrained_models/CC+CAJ_veri_43.1.tar
+CUDA_VISIBLE_DEVICES=1 python test.py -d veri --resume ./pretrained_models/CC+CAJ_veri_43.1.tar --height 224 --width 224
 ```
 
 ## Re-ranking (re-ranking scene)
@@ -88,7 +88,7 @@ CUDA_VISIBLE_DEVICES=1 python test.py -d market1501 --resume ./pretrained_models
 # msmt17
 CUDA_VISIBLE_DEVICES=1 python test.py -d msmt17 --resume ./pretrained_models/CC+CAJ_msmt17_42.8.tar --rerank --ckrnns --clqe
 # veri
-CUDA_VISIBLE_DEVICES=1 python test.py -d veri --resume ./pretrained_models/CC+CAJ_veri_43.1.tar --rerank --ckrnns --clqe
+CUDA_VISIBLE_DEVICES=1 python test.py -d veri --resume ./pretrained_models/CC+CAJ_veri_43.1.tar --rerank --ckrnns --clqe --height 224 --width 224
 ```
 
 ## Acknowledgement
