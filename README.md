@@ -84,11 +84,11 @@ You can download baseline pretrained weights from this [link]().
 
 ```bash
 # market1501
-CUDA_VISIBLE_DEVICES=1 python test.py -d market1501 --resume ./pretrained_models/CC+CAJ_market1501_84.8.tar --rerank --ckrnns --clqe
+CUDA_VISIBLE_DEVICES=1 python test.py -d market1501 --resume ./pretrained_models/CC_market1501_81.0.tar --rerank --ckrnns --clqe
 # msmt17
-CUDA_VISIBLE_DEVICES=1 python test.py -d msmt17 --resume ./pretrained_models/CC+CAJ_msmt17_42.8.tar --rerank --ckrnns --clqe
+CUDA_VISIBLE_DEVICES=1 python test.py -d msmt17 --resume ./pretrained_models/CC_msmt17_31.1.tar --rerank --ckrnns --clqe
 # veri
-CUDA_VISIBLE_DEVICES=1 python test.py -d veri --resume ./pretrained_models/CC+CAJ_veri_43.1.tar --rerank --ckrnns --clqe --height 224 --width 224
+CUDA_VISIBLE_DEVICES=1 python test.py -d veri --resume ./pretrained_models/CC_veri776_38.1.tar --rerank --ckrnns --clqe --height 224 --width 224
 ```
 
 ## Acknowledgement
