@@ -63,7 +63,7 @@ CUDA_VISIBLE_DEVICES=1,2,3,4 python train_caj.py -d veri --eps 0.6  --iters 400 
 
 We use a single RTX 3090 GPU for testing.
 
-You can download pretrained weights from this [link](https://drive.google.com/drive/folders/1yCOzEYX3XO4-rb9jHZr6oGPJPOn6Yr-X?usp=sharing).
+You can download pretrained weights from this [GoogleDrive](https://drive.google.com/drive/folders/1yCOzEYX3XO4-rb9jHZr6oGPJPOn6Yr-X?usp=sharing).
 
 
 ```bash
@@ -80,7 +80,7 @@ We use a single RTX 3090 GPU for re-ranking.
 
 Note that re-ranking on the MSMT17 and VeRi-776 datasets requires at least 400GB memory.
 
-You can download baseline pretrained weights from this [link](https://drive.google.com/drive/folders/1yCOzEYX3XO4-rb9jHZr6oGPJPOn6Yr-X?usp=sharing).
+You can download baseline pretrained weights from this [GoogleDrive](https://drive.google.com/drive/folders/1yCOzEYX3XO4-rb9jHZr6oGPJPOn6Yr-X?usp=sharing).
 
 ```bash
 # market1501
@@ -93,7 +93,7 @@ CUDA_VISIBLE_DEVICES=1 python test.py -d veri --resume ./pretrained_models/CC_ve
 
 ## Acknowledgement
 
-Some parts of the code is borrowed from [Cluster-Contrast](https://github.com/alibaba/cluster-contrast-reid).
+Some parts of the code is borrowed from [GoogleDrive](https://github.com/alibaba/cluster-contrast-reid).
 
 ## Citation
 
