@@ -3,7 +3,7 @@
 Official PyTorch implementation of [CA-Jaccard: Camera-aware Jaccard Distance for Person Re-identification](https://arxiv.org/abs/2311.10605) (CVPR 2024).
 
 ## Updates
-- 2024/04 The code is released.
+- 2024/04 The code will be released soon.
 - 2024/02/27 CA-Jaccard distance is accepted by CVPR2024! 🎉🎉
 - 2023/11/17 CA-Jaccard distance publicly available on arxiv.
 
