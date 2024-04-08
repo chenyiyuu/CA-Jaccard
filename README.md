@@ -3,7 +3,7 @@
 Official PyTorch implementation of [CA-Jaccard: Camera-aware Jaccard Distance for Person Re-identification](https://arxiv.org/abs/2311.10605) (CVPR 2024).
 
 ## Updates
-- 2024/03 The code is released.
+- 2024/04 The code is released.
 - 2024/02/27 CA-Jaccard distance is accepted by CVPR2024! 🎉🎉
 - 2023/11/17 CA-Jaccard distance publicly available on arxiv.
 
@@ -63,7 +63,7 @@ CUDA_VISIBLE_DEVICES=1,2,3,4 python train_caj.py -d veri --eps 0.6  --iters 400 
 
 We use a single RTX 3090 GPU for testing.
 
-You can download pretrained weights from this [link]().
+You can download pretrained weights from this [link](https://drive.google.com/drive/folders/1yCOzEYX3XO4-rb9jHZr6oGPJPOn6Yr-X?usp=sharing).
 
 
 ```bash
@@ -80,7 +80,7 @@ We use a single RTX 3090 GPU for re-ranking.
 
 Note that re-ranking on the MSMT17 and VeRi-776 datasets requires at least 400GB memory.
 
-You can download baseline pretrained weights from this [link]().
+You can download baseline pretrained weights from this [link](https://drive.google.com/drive/folders/1yCOzEYX3XO4-rb9jHZr6oGPJPOn6Yr-X?usp=sharing).
 
 ```bash
 # market1501
