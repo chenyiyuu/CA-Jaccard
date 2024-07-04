@@ -3,7 +3,7 @@
 Official PyTorch implementation of [CA-Jaccard: Camera-aware Jaccard Distance for Person Re-identification](https://arxiv.org/abs/2311.10605) (CVPR 2024).
 
 ## Updates
-- 2024/04 The code will be released soon.
+- 2024/07/04 The code has released!!!
 - 2024/02/27 CA-Jaccard distance is accepted by CVPR2024! 🎉🎉
 - 2023/11/17 CA-Jaccard distance publicly available on arxiv.
 
@@ -93,7 +93,7 @@ CUDA_VISIBLE_DEVICES=1 python test.py -d veri --resume ./pretrained_models/CC_ve
 
 ## Acknowledgement
 
-Some parts of the code is borrowed from [GoogleDrive](https://github.com/alibaba/cluster-contrast-reid).
+Some parts of the code is borrowed from [Cluster Contrast](https://github.com/alibaba/cluster-contrast-reid).
 
 ## Citation
 
