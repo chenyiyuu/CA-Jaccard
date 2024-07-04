@@ -22,7 +22,7 @@ git clone https://github.com/chen960/CA-Jaccard
 cd CA-Jaccard
 pip install -r requirement.txt
 ```
-
+Note that some packages may not able be installed by pip. Please refer the official website for installation.
 ### Preparing Datasets
 
 ```shell
