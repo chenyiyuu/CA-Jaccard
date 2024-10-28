@@ -1,4 +1,4 @@
-# CA-Jaacard
+# CA-Jaccard
 
 Official PyTorch implementation of [CA-Jaccard: Camera-aware Jaccard Distance for Person Re-identification](https://arxiv.org/abs/2311.10605) (CVPR 2024).
 
@@ -52,7 +52,7 @@ Sometimes setting both k2-intra and k2-inter to 3 can achieve better performance
 
 ```bash
 # Market1501
-CUDA_VISIBLE_DEVICES=1,2,3,4 python train_caj.py -d market1501  -eps 0.4  --iters 200  --ckrnns --clqe --k2-intra 2 --k2-inter 4 --logs-dir logs/CC+CAJ_market1501  
+CUDA_VISIBLE_DEVICES=1,2,3,4 python train_caj.py -d market1501  --eps 0.4  --iters 200  --ckrnns --clqe --k2-intra 2 --k2-inter 4 --logs-dir logs/CC+CAJ_market1501  
 # msmt17
 CUDA_VISIBLE_DEVICES=1,2,3,4 python train_caj.py -d msmt17 --eps 0.6  --iters 400 --ckrnns --clqe --k2-intra 2 --k2-inter 4 --logs-dir logs/CC+CAJ_msmt17
 # veri
